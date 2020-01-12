@@ -1,0 +1,318 @@
+body {
+    background: #1A1717;
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 200
+}
+
+h1 {
+    font-family: mono45-headline, monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+h2 {
+    text-align:center;
+    font-family: mono45-headline, monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color:red;
+}
+
+h4 {
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+img{
+    padding:0;
+    margin:0;
+}
+.clearfix {
+    overflow: auto;
+}
+
+
+/*-----------------------------------navigation bar-----------------------------------*/
+#navigation {
+    padding-bottom: 10px;
+}
+.navbar {
+    margin-bottom: 80px;
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar-nav{
+    margin: 0 auto;
+}
+.nav-link {
+    font-family: ocr-b-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-item{
+    padding: 0 30px;
+}
+.btn {
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#logo-img {
+    display: block;
+    width: 100px;
+}
+#logo-trial {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    width: 100px;
+    margin: 0 auto;
+}
+/*-----------------------------------HOME-----------------------------------
+
+#main {
+    margin: 0 200px;
+}
+/*-----------------------------------ABOUT PAGE-----------------------------------*/
+/*#about_content{
+    margin: auto 0;
+}*/
+.about_img {
+    display: inline-block;
+    padding: 0;
+    border-radius: 7.5%;
+    margin-bottom: 50px;
+}
+.about_para{
+    display: inline;
+    float: right;
+    text-align: justify;
+    padding: 0;
+}
+
+#about_content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+#test {
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-----------------------------------ANIMATION-----------------------------------*/
+.gallery-text {
+    font-family: mr-eaves-modern, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    font-size:1.2rem;
+}
+.gallery-img {
+    padding-top: 0;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.image-card img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+
+}
+.zoom-effect-container {
+    float: left;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.zoom-effect-container:hover .image-card img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+
+}
+
+
+/*-----------------------------------2D Graphics-----------------------------------*/
+.card-title {
+    text-align: center;
+    font-family: mono45-headline, monospace;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.card-text {
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+.card-columns {
+    width: 80%;
+    margin: 0 auto;
+}
+.card-quote {
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*-----------------------------------Individual Project Page-----------------------------------*/
+.content {
+    width: 70%;
+    margin: 0 auto;
+}
+.project-title{
+    text-align:center;
+}
+.vl {
+    border-left: 1px solid black;
+    height: 100%;
+}
+.info-col{
+    margin-left: 20px;
+}
+.section-divider {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.lg-img {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    margin: 50px auto;
+}
+.project-info {
+    padding-bottom: 120px;
+    padding-top: 70px;
+}
+.software-icon{
+    width: 30px;
+    padding: 0;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+.software-des {
+    font-size: 0.6rem;
+}
+.project-des {
+    margin: 0 auto;
+    max-width: 600px;
+    line-height: 4;
+    padding-bottom: 120px;
+}
+.project-vid {
+    display: block;
+    margin:0 auto;
+}
+
+.star {
+    visibility: hidden;
+}
+
+.fadeIn {
+    -webkit-animation: animat_show 0.8s;
+    animation: animat_show 0.8s;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+/*-----------------------------------footer -  effects-----------------------------------*/
+#footer-line {
+    width: 100%;
+    opacity: 0.7;
+}
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    width: 80%;
+}
+
+#footer-text {
+    display: inline;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 0.65rem;
+}
+
+#footer-icon {
+    display: inline;
+    float: right;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    color: black;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+/*-----------------------------------CAROUSEL-----------------------------------*/
+#myCarousel .list-inline {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+#myCarousel .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-left: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+}
+
+#myCarousel .carousel-indicators > li.active img {
+    opacity: 0.7;
+}
+.carousel-vid{
+    display: block;
+    margin: 0 auto;
+}
+.carousel-img{
+    display: block;
+    margin: 0 auto;
+}
