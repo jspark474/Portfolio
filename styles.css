@@ -71,8 +71,17 @@ img{
 .container {
     display: block;
     cursor: pointer;
+
 }
-.nav-link {
+#paddingfix {
+    padding-left: 0;
+    padding-right: 0;
+}
+#paddingfix2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+nav-link {
     font-family: ocr-b-std, monospace;
     font-weight: 400;
     font-style: normal;
@@ -388,4 +397,7 @@ img{
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
+}
+#slider{
+    padding: 0;
 }
