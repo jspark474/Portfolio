@@ -45,7 +45,6 @@ img{
     overflow: auto;
 }
 
-
 /*-----------------------------------navigation bar-----------------------------------*/
 @media screen and (min-width:600px) {
     .small-logo {
@@ -165,10 +164,12 @@ img{
 /*-----------------------------------ANIMATION-----------------------------------*/
 .gallery-text {
     font-family: mr-eaves-modern, sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
     text-align: center;
-    font-size:1.2rem;
+    font-size:1.5rem;
+    text-decoration: none;
+
 }
 .gallery-img {
     padding-top: 0;
@@ -257,13 +258,13 @@ img{
     margin-right: 10px;
 }
 .software-des {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     margin-bottom: 10px;
 }
 .project-des {
     margin: 0 auto;
     max-width: 600px;
-    line-height: 4;
+    line-height: 2.5;
     padding-bottom: 120px;
 }
 .project-vid {
@@ -280,6 +281,10 @@ img{
     animation: animat_show 0.8s;
     visibility: visible !important;
 }
+.img-mar{
+    padding-bottom: 10px;
+}
+
 
 @-webkit-keyframes animat_show {
     0% {
@@ -329,7 +334,23 @@ img{
 }
 
 
+.myBtn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+}
 
+.myBtn:hover {
+    background-color: #555;
+}
 
 
 
@@ -364,4 +385,9 @@ img{
 .carousel-img{
     display: block;
     margin: 0 auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
