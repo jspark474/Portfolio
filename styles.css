@@ -1,3 +1,5 @@
+
+
 body {
     background: #1A1717;
     font-family: source-sans-pro, sans-serif;
@@ -45,6 +47,16 @@ img{
 
 
 /*-----------------------------------navigation bar-----------------------------------*/
+@media screen and (min-width:600px) {
+    .small-logo {
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+    .logo-trial {
+        display: none;
+    }
+}
 #navigation {
     padding-bottom: 10px;
 }
@@ -54,6 +66,10 @@ img{
 }
 .navbar-nav{
     margin: 0 auto;
+}
+.navbar-toggler{
+    border-color: white;
+    border: 0;
 }
 .nav-link {
     font-family: ocr-b-std, monospace;
@@ -69,25 +85,28 @@ img{
     margin-right: 20px;
 }
 
-.logo {
+.large-logo {
     display: inline-block;
     margin: 0 auto;
 }
-
+.small-logo{
+    margin: 20px 0;
+}
 #logo-img {
     display: block;
     width: 100px;
 }
-#logo-trial {
+.logo-trial {
     padding-top: 50px;
     padding-bottom: 60px;
     width: 100px;
     margin: 0 auto;
 }
-//new burger icon
+/*new burger icon*/
 .container {
-    display: inline-block;
+    display: block;
     cursor: pointer;
+    padding: 0px;
 }
 
 .bar1, .bar2, .bar3 {
@@ -116,7 +135,7 @@ img{
 #main {
     margin: 0 200px;
 }
-/*-----------------------------------ABOUT PAGE-----------------------------------*/
+/*-----------------------------------ABOUT PAGE-----------------------------------
 /*#about_content{
     margin: auto 0;
 }*/
@@ -228,8 +247,10 @@ img{
 .project-info {
     padding-bottom: 120px;
     padding-top: 70px;
+    margin: 0 auto;
 }
-.software-icon{
+
+.software-icon {
     width: 30px;
     padding: 0;
     margin-top: 3px;
@@ -237,6 +258,7 @@ img{
 }
 .software-des {
     font-size: 0.6rem;
+    margin-bottom: 10px;
 }
 .project-des {
     margin: 0 auto;

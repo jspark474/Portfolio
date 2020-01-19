@@ -20,6 +20,11 @@ function showImages(el) {
         }
     });
 }
+//navbar burger
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+
 
 // if the image in the window of browser when the page is loaded, show that image
 $(document).ready(function(){
